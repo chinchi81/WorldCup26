@@ -166,14 +166,14 @@ for tab, sheet in zip(tabs, tab_names):
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
-            iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/DFCtw/" 
-                    width="100%" 
-                    height="100%" 
-                    style="min-height: 90vh;" 
-                    frameborder="0"></iframe>
-            """
-            st.components.v1.html(iframe, height=2800)
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/DFCtw/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
 
         # --- Other tabs: placeholders ---
         else:
