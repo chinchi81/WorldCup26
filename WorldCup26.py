@@ -147,7 +147,7 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
-            subtab_names = ["Pre-Tournament"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -162,6 +162,10 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Stage Probabilities: placeholder ---
         elif sheet == "Final Pathway":
+            subtab_names = ["Pre-Tournament", "Post 1st Round"]
+            subtabs = st.tabs(subtab_names)
+
+            with subtabs[0]:
             iframe = """
             <iframe src="https://datawrapper.dwcdn.net/DFCtw/" 
                     width="100%" 
