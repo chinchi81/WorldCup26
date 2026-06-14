@@ -18,7 +18,7 @@ st.cache_data.clear()
 st.title("World Cup 2026 Predictions")
 
 # Define tabs
-tab_names = ["Group Fixtures", "Group Tables", "KO Probabilities", "Final Pathway"]
+tab_names = ["Group Fixtures", "Group Tables", "KO Matches", "KO Probabilities", "Final Pathway"]
 tabs = st.tabs(tab_names)
 
 for tab, sheet in zip(tabs, tab_names):
@@ -249,6 +249,16 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                 st.components.v1.html(iframe3RD1, height=1250)
 
+        elif sheet == "KO Fixtures":
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/1qh7P/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=3800)
+        
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
             subtab_names = ["Pre-Tournament", "Post 1st Round"]
