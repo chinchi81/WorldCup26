@@ -18,7 +18,7 @@ st.cache_data.clear()
 st.title("World Cup 2026 Predictions")
 
 # Define tabs
-tab_names = ["Group Fixtures", "Group Tables", "KO Matches", "KO Probabilities", "Final Pathway"]
+tab_names = ["Group Fixtures", "Group Tables", "KO Fixtures", "KO Probabilities", "Final Pathway"]
 tabs = st.tabs(tab_names)
 
 for tab, sheet in zip(tabs, tab_names):
