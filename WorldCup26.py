@@ -193,21 +193,21 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframeF1, height=240)
                 
-                #iframeG1 = """
-                #    <iframe src="https://datawrapper.dwcdn.net/zBvIH/" 
-                #            width="100%" 
-                #            height="500" 
-                #            frameborder="0"></iframe>
-                #    """
-                #st.components.v1.html(iframeG1, height=240)
+                iframeG1 = """
+                    <iframe src="https://datawrapper.dwcdn.net/zBvIH/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframeG1, height=240)
                 
-                #iframeH1 = """
-                #    <iframe src="https://datawrapper.dwcdn.net/TYr4v/" 
-                #            width="100%" 
-                #            height="500" 
-                #            frameborder="0"></iframe>
-                #    """
-                #st.components.v1.html(iframeH1, height=240)
+                iframeH1 = """
+                    <iframe src="https://datawrapper.dwcdn.net/TYr4v/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframeH1, height=240)
 
                 #iframeI1 = """
                 #    <iframe src="https://datawrapper.dwcdn.net/HDiZE/" 
