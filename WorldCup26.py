@@ -225,21 +225,21 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                 st.components.v1.html(iframeJ1, height=240)
                 
-                #iframeK1 = """
-                #    <iframe src="https://datawrapper.dwcdn.net/bMyEC/" 
-                #            width="100%" 
-                #            height="500" 
-                #            frameborder="0"></iframe>
-                #    """
-                #st.components.v1.html(iframeK1, height=240)
+                iframeK1 = """
+                    <iframe src="https://datawrapper.dwcdn.net/bMyEC/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframeK1, height=240)
                 
-                #iframeL1 = """
-                #    <iframe src="https://datawrapper.dwcdn.net/mOKZ6/" 
-                #            width="100%" 
-                #            height="500" 
-                #            frameborder="0"></iframe>
-                #    """
-                #st.components.v1.html(iframeL1, height=240)
+                iframeL1 = """
+                    <iframe src="https://datawrapper.dwcdn.net/mOKZ6/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframeL1, height=240)
                 
                 iframe3RD1 = """
                     <iframe src="https://datawrapper.dwcdn.net/CAJRr/" 
