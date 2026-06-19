@@ -36,7 +36,7 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
-            subtab_names = ["Pre-Tournament", "Post 1st Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
             subtabs = st.tabs(subtab_names)
     
             with subtabs[0]:
@@ -248,6 +248,31 @@ for tab, sheet in zip(tabs, tab_names):
                             frameborder="0"></iframe>
                     """
                 st.components.v1.html(iframe3RD1, height=1250)
+                
+            with subtabs[2]:
+                iframeA2 = """
+                <iframe src="https://datawrapper.dwcdn.net/Sw6E1/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeA2, height=300)
+                
+                iframeB2 = """
+                <iframe src="https://datawrapper.dwcdn.net/RnRyD/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeB2, height=240)
+                
+                iframe3RD2 = """
+                    <iframe src="https://datawrapper.dwcdn.net/anTcS/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframe3RD1, height=1250)
 
         elif sheet == "KO Fixtures":
             iframe = """
@@ -261,7 +286,7 @@ for tab, sheet in zip(tabs, tab_names):
         
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
-            subtab_names = ["Pre-Tournament", "Post 1st Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -283,10 +308,20 @@ for tab, sheet in zip(tabs, tab_names):
                         frameborder="0"></iframe>
                 """
                 st.components.v1.html(iframe, height=2800)
+            
+            with subtabs[2]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/hTf71/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
 
         # --- Stage Probabilities: placeholder ---
         elif sheet == "Final Pathway":
-            subtab_names = ["Pre-Tournament", "Post 1st Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -302,6 +337,16 @@ for tab, sheet in zip(tabs, tab_names):
             with subtabs[1]:
                 iframe = """
                 <iframe src="https://datawrapper.dwcdn.net/gT1y4/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+                
+            with subtabs[2]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/kCqH7/" 
                         width="100%" 
                         height="100%" 
                         style="min-height: 90vh;" 
