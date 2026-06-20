@@ -265,22 +265,14 @@ for tab, sheet in zip(tabs, tab_names):
                         frameborder="0"></iframe>
                 """
                 st.components.v1.html(iframeB2, height=240)
-                
-                iframe3RD2 = """
-                    <iframe src="https://datawrapper.dwcdn.net/anTcS/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                st.components.v1.html(iframe3RD1, height=1250)
-                
+                                
                 iframeC2 = """
                 <iframe src="https://datawrapper.dwcdn.net/NBeJF/" 
                         width="100%" 
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframeA2, height=300)
+                st.components.v1.html(iframeC2, height=300)
                 
                 iframeD2 = """
                 <iframe src="https://datawrapper.dwcdn.net/geY04/" 
@@ -288,7 +280,7 @@ for tab, sheet in zip(tabs, tab_names):
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframeB2, height=240)
+                st.components.v1.html(iframeD2, height=240)
                 
                 iframe3RD2 = """
                     <iframe src="https://datawrapper.dwcdn.net/anTcS/" 
