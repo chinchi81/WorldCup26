@@ -282,6 +282,70 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframeD2, height=240)
                 
+                #iframeE2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeE2, height=240)
+                
+                iframeF2 = """
+                <iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeF2, height=240)
+                
+                #iframeG2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeG2, height=240)
+                
+                #iframeH2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeH2, height=240)
+                
+                #iframeI2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeI2, height=240)
+                
+                #iframeJ2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeJ2, height=240)
+                
+                #iframeK2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeK2, height=240)
+                
+                #iframeL2 = """
+                #<iframe src="https://datawrapper.dwcdn.net/geY04/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeL2, height=240)
+                
                 iframe3RD2 = """
                     <iframe src="https://datawrapper.dwcdn.net/anTcS/" 
                             width="100%" 
