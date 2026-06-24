@@ -29,24 +29,24 @@ for tab, sheet in zip(tabs, tab_names):
             subtabs = st.tabs(subtab_names)
             
             with subtabs[0]:
-            iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/AkvlP/" 
-                    width="100%" 
-                    height="100%" 
-                    style="min-height: 90vh;" 
-                    frameborder="0"></iframe>
-            """
-            st.components.v1.html(iframe, height=3800)
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/AkvlP/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=3800)
             
             with subtabs[1]:
-            iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/aiSgh/" 
-                    width="100%" 
-                    height="100%" 
-                    style="min-height: 90vh;" 
-                    frameborder="0"></iframe>
-            """
-            st.components.v1.html(iframe, height=3800)
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/aiSgh/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=3800)
 
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
