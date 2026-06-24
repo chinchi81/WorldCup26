@@ -573,9 +573,9 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframe, height=2800)
 
-    # --- Other tabs: placeholders ---
-    else:
-        st.info(f"{sheet} tab — visualization can be added here.")
+        # --- Other tabs: placeholders ---
+        else:
+            st.info(f"{sheet} tab — visualization can be added here.")
 
 
 # In[ ]:
