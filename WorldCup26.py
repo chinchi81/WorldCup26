@@ -473,109 +473,109 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                 st.components.v1.html(iframe3RD1, height=1250)
 
-            elif sheet == "KO Fixtures":
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/1qh7P/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=3800)
+        elif sheet == "KO Fixtures":
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/1qh7P/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=3800)
+        
+        # --- Stage Probabilities: placeholder ---
+        elif sheet == "KO Probabilities":
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
+            subtabs = st.tabs(subtab_names)
+
+            with subtabs[0]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/BDQ4f/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+            with subtabs[1]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/aw8iw/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
             
-            # --- Stage Probabilities: placeholder ---
-            elif sheet == "KO Probabilities":
-                subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
-                subtabs = st.tabs(subtab_names)
-    
-                with subtabs[0]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/BDQ4f/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-                with subtabs[1]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/aw8iw/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
+            with subtabs[2]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/hTF71/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+        with subtabs[3]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/QykEO/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+        # --- Stage Probabilities: placeholder ---
+        elif sheet == "Final Pathway":
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
+            subtabs = st.tabs(subtab_names)
+
+            with subtabs[0]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/DFCtw/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+            with subtabs[1]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/gT1y4/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
                 
-                with subtabs[2]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/hTF71/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-            with subtabs[3]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/QykEO/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-            # --- Stage Probabilities: placeholder ---
-            elif sheet == "Final Pathway":
-                subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
-                subtabs = st.tabs(subtab_names)
-    
-                with subtabs[0]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/DFCtw/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-                with subtabs[1]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/gT1y4/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-                    
-                with subtabs[2]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/kCqH7/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-            with subtabs[3]:
-                    iframe = """
-                    <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
-                            width="100%" 
-                            height="100%" 
-                            style="min-height: 90vh;" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe, height=2800)
-    
-            # --- Other tabs: placeholders ---
-            else:
-                st.info(f"{sheet} tab — visualization can be added here.")
+            with subtabs[2]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/kCqH7/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+        with subtabs[3]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+        # --- Other tabs: placeholders ---
+        else:
+            st.info(f"{sheet} tab — visualization can be added here.")
 
 
 # In[ ]:
