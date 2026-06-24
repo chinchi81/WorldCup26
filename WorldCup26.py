@@ -50,7 +50,7 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post Final Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
             subtabs = st.tabs(subtab_names)
     
             with subtabs[0]:
@@ -368,6 +368,111 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                 st.components.v1.html(iframe3RD2, height=1250)
 
+        with subtabs[2]:
+                iframeA3 = """
+                <iframe src="https://datawrapper.dwcdn.net/y03Xg/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeA3, height=300)
+                
+                iframeB1 = """
+                <iframe src="https://datawrapper.dwcdn.net/BjLT1/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeB1, height=240)
+                
+                iframeC1 = """
+                <iframe src="https://datawrapper.dwcdn.net/Y7KAm/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeC1, height=240)
+                
+                #iframeD1 = """
+                #<iframe src="https://datawrapper.dwcdn.net/Ok1oz/"
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeD1, height=240)
+                
+                #iframeE1 = """
+                #<iframe src="https://datawrapper.dwcdn.net/WXrOy/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeE1, height=240)
+                
+                #iframeF1 = """
+                #<iframe src="https://datawrapper.dwcdn.net/6wlnt/" 
+                #        width="100%" 
+                #        height="500" 
+                #        frameborder="0"></iframe>
+                #"""
+                #st.components.v1.html(iframeF1, height=240)
+                
+                #iframeG1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/zBvIH/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeG1, height=240)
+                
+                #iframeH1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/TYr4v/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeH1, height=240)
+
+                #iframeI1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/HDiZE/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeI1, height=240)
+                
+                #iframeJ1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/X6ToB/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeJ1, height=240)
+                
+                #iframeK1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/bMyEC/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeK1, height=240)
+                
+                #iframeL1 = """
+                #    <iframe src="https://datawrapper.dwcdn.net/mOKZ6/" 
+                #            width="100%" 
+                #            height="500" 
+                #            frameborder="0"></iframe>
+                #    """
+                #st.components.v1.html(iframeL1, height=240)
+                
+                iframe3RD3 = """
+                    <iframe src="https://datawrapper.dwcdn.net/a0WTg/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                st.components.v1.html(iframe3RD1, height=1250)
+
         elif sheet == "KO Fixtures":
             iframe = """
             <iframe src="https://datawrapper.dwcdn.net/1qh7P/" 
@@ -380,7 +485,7 @@ for tab, sheet in zip(tabs, tab_names):
         
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -413,9 +518,19 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframe, height=2800)
 
+        with subtabs[3]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/QykEO/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
         # --- Stage Probabilities: placeholder ---
         elif sheet == "Final Pathway":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -441,6 +556,16 @@ for tab, sheet in zip(tabs, tab_names):
             with subtabs[2]:
                 iframe = """
                 <iframe src="https://datawrapper.dwcdn.net/kCqH7/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
+        with subtabs[3]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
                         width="100%" 
                         height="100%" 
                         style="min-height: 90vh;" 
