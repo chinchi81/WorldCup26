@@ -338,13 +338,13 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframeK2, height=240)
                 
-                #iframeL2 = """
-                #<iframe src="https://datawrapper.dwcdn.net/gZa0U/" 
-                #        width="100%" 
-                #        height="500" 
-                #        frameborder="0"></iframe>
-                #"""
-                #st.components.v1.html(iframeL2, height=240)
+                iframeL2 = """
+                <iframe src="https://datawrapper.dwcdn.net/gZa0U/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeL2, height=240)
                 
                 iframe3RD2 = """
                     <iframe src="https://datawrapper.dwcdn.net/anTcS/" 
