@@ -25,6 +25,20 @@ for tab, sheet in zip(tabs, tab_names):
     with tab:
         # --- Group Fixtures: only embed Datawrapper chart ---
         if sheet == "Group Fixtures":
+            subtab_names = ["Pre-Tournament", "Live"]
+            subtabs = st.tabs(subtab_names)
+            
+            with subtabs[0]:
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/AkvlP/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=3800)
+            
+            with subtabs[1]:
             iframe = """
             <iframe src="https://datawrapper.dwcdn.net/aiSgh/" 
                     width="100%" 
@@ -36,7 +50,7 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post Final Round"]
             subtabs = st.tabs(subtab_names)
     
             with subtabs[0]:
