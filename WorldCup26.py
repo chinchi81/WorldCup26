@@ -528,10 +528,10 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframe, height=2800)
 
-        # --- Stage Probabilities: placeholder ---
-        elif sheet == "Final Pathway":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
-            subtabs = st.tabs(subtab_names)
+    # --- Stage Probabilities: placeholder ---
+    elif sheet == "Final Pathway":
+        subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
+        subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
                 iframe = """
