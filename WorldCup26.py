@@ -563,15 +563,15 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframe, height=2800)
 
-        with subtabs[3]:
-                iframe = """
-                <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
-                        width="100%" 
-                        height="100%" 
-                        style="min-height: 90vh;" 
-                        frameborder="0"></iframe>
-                """
-                st.components.v1.html(iframe, height=2800)
+            with subtabs[3]:
+                    iframe = """
+                    <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
+                            width="100%" 
+                            height="100%" 
+                            style="min-height: 90vh;" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe, height=2800)
 
         # --- Other tabs: placeholders ---
         else:
