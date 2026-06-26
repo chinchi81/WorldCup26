@@ -393,29 +393,29 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframeC1, height=240)
                 
-                #iframeD1 = """
-                #<iframe src="https://datawrapper.dwcdn.net/Ok1oz/"
-                #        width="100%" 
-                #        height="500" 
-                #        frameborder="0"></iframe>
-                #"""
-                #st.components.v1.html(iframeD1, height=240)
+                iframeD1 = """
+                <iframe src="https://datawrapper.dwcdn.net/Ok1oz/"
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeD1, height=240)
                 
-                #iframeE1 = """
-                #<iframe src="https://datawrapper.dwcdn.net/WXrOy/" 
-                #        width="100%" 
-                #        height="500" 
-                #        frameborder="0"></iframe>
-                #"""
-                #st.components.v1.html(iframeE1, height=240)
+                iframeE1 = """
+                <iframe src="https://datawrapper.dwcdn.net/WXrOy/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeE1, height=240)
                 
-                #iframeF1 = """
-                #<iframe src="https://datawrapper.dwcdn.net/6wlnt/" 
-                #        width="100%" 
-                #        height="500" 
-                #        frameborder="0"></iframe>
-                #"""
-                #st.components.v1.html(iframeF1, height=240)
+                iframeF1 = """
+                <iframe src="https://datawrapper.dwcdn.net/6wlnt/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframeF1, height=240)
                 
                 #iframeG1 = """
                 #    <iframe src="https://datawrapper.dwcdn.net/zBvIH/" 
