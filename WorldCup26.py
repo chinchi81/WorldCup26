@@ -485,7 +485,7 @@ for tab, sheet in zip(tabs, tab_names):
         
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round", "Post R32"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -528,9 +528,19 @@ for tab, sheet in zip(tabs, tab_names):
                 """
                 st.components.v1.html(iframe, height=2800)
 
+            with subtabs[4]:
+                iframe = """
+                <iframe src="https://datawrapper.dwcdn.net/If3Pq/" 
+                        width="100%" 
+                        height="100%" 
+                        style="min-height: 90vh;" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe, height=2800)
+
         # --- Stage Probabilities: placeholder ---
         elif sheet == "Final Pathway":
-            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round"]
+            subtab_names = ["Pre-Tournament", "Post 1st Round", "Post 2nd Round", "Post 3rd Round", "Post R32"]
             subtabs = st.tabs(subtab_names)
 
             with subtabs[0]:
@@ -566,6 +576,16 @@ for tab, sheet in zip(tabs, tab_names):
             with subtabs[3]:
                     iframe = """
                     <iframe src="https://datawrapper.dwcdn.net/Fe8uM/" 
+                            width="100%" 
+                            height="100%" 
+                            style="min-height: 90vh;" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe, height=2800)
+
+            with subtabs[4]:
+                    iframe = """
+                    <iframe src="https://datawrapper.dwcdn.net/ea9v5/" 
                             width="100%" 
                             height="100%" 
                             style="min-height: 90vh;" 
